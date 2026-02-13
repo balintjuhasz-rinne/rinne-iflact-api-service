@@ -1,0 +1,38 @@
+{
+  "avatar": {
+    "maxCount": 1,
+    "extensions": ["png", "jpg", "jpeg"],
+    "folder": "avatars",
+    "resize": [
+      {
+        "method": "contain",
+        "args": [228, 228]
+      },
+      {
+        "method": "contain",
+        "args": [28, 28]
+      }
+    ]
+  },
+  "logo": {
+    "maxCount": 1,
+    "extensions": ["png", "jpg", "jpeg"],
+    "folder": "logos",
+    "resize": [
+      {
+        "method": "contain",
+        "args": [68, 68]
+      }
+    ]
+  },
+  "document": {
+    "maxCount": 50,
+    "folder": "documents",
+    "extensions": ["pdf", "doc", "docx"]
+  },
+  "template": {
+    "maxCount": 50,
+    "folder": "templates",
+    "extensions": ["pdf", "doc", "docx"]
+  }
+}

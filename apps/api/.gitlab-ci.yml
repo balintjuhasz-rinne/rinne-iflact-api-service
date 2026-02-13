@@ -1,0 +1,10 @@
+.service_var: &service_var
+  variables:
+    SERVICE: "api"
+
+🚦 test api:
+  extends: .test:build&e2e
+  before_script:
+    - yarn install --frozen-lockfile
+    - yarn migrate:run
+  <<: *service_var

@@ -1,0 +1,147 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "apps/api/src",
+  "monorepo": true,
+  "root": "apps/api",
+  "compilerOptions": {
+    "webpack": true,
+    "tsConfigPath": "apps/api/tsconfig.app.json"
+  },
+  "projects": {
+    "api": {
+      "type": "application",
+      "root": "apps/api",
+      "entryFile": "main",
+      "sourceRoot": "apps/api/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/api/tsconfig.app.json"
+      }
+    },
+    "console": {
+      "type": "application",
+      "root": "apps/blockchain",
+      "entryFile": "console",
+      "sourceRoot": "apps/blockchain/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/blockchain/tsconfig.app.json"
+      }
+    },
+    "mail": {
+      "type": "application",
+      "root": "apps/mail",
+      "entryFile": "main",
+      "sourceRoot": "apps/mail/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/mail/tsconfig.app.json"
+      }
+    },
+    "blockchain": {
+      "type": "application",
+      "root": "apps/blockchain",
+      "entryFile": "main",
+      "sourceRoot": "apps/blockchain/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/blockchain/tsconfig.app.json"
+      }
+    },
+    "db-check": {
+      "type": "application",
+      "root": "apps/db-check",
+      "entryFile": "main",
+      "sourceRoot": "apps/db-check/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/db-check/tsconfig.app.json"
+      }
+    },
+    "scheduler": {
+      "type": "application",
+      "root": "apps/scheduler",
+      "entryFile": "main",
+      "sourceRoot": "apps/scheduler/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/scheduler/tsconfig.app.json"
+      }
+    },
+    "url-shortener": {
+      "type": "application",
+      "root": "apps/url-shortener",
+      "entryFile": "main",
+      "sourceRoot": "apps/url-shortener/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/url-shortener/tsconfig.app.json"
+      }
+    },
+    "entities": {
+      "type": "library",
+      "root": "libs/entities",
+      "entryFile": "index",
+      "sourceRoot": "libs/entities/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/entities/tsconfig.lib.json"
+      }
+    },
+    "constants": {
+      "type": "library",
+      "root": "libs/constants",
+      "entryFile": "index",
+      "sourceRoot": "libs/constants/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/constants/tsconfig.lib.json"
+      }
+    },
+    "interfaces": {
+      "type": "library",
+      "root": "libs/interfaces",
+      "entryFile": "index",
+      "sourceRoot": "libs/interfaces/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/interfaces/tsconfig.lib.json"
+      }
+    },
+    "connectors": {
+      "type": "library",
+      "root": "libs/connectors",
+      "entryFile": "index",
+      "sourceRoot": "libs/connectors/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/connectors/tsconfig.lib.json"
+      }
+    },
+    "dtos": {
+      "type": "library",
+      "root": "libs/dtos",
+      "entryFile": "index",
+      "sourceRoot": "libs/dtos/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/dtos/tsconfig.lib.json"
+      }
+    },
+    "helpers": {
+      "type": "library",
+      "root": "libs/helpers",
+      "entryFile": "index",
+      "sourceRoot": "libs/helpers/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/helpers/tsconfig.lib.json"
+      }
+    },
+    "decorators": {
+      "type": "library",
+      "root": "libs/decorators",
+      "entryFile": "index",
+      "sourceRoot": "libs/decorators/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/decorators/tsconfig.lib.json"
+      }
+    },
+    "mappers": {
+      "type": "library",
+      "root": "libs/mappers",
+      "entryFile": "index",
+      "sourceRoot": "libs/mappers/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/mappers/tsconfig.lib.json"
+      }
+    }
+  }
+}

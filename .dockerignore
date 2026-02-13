@@ -1,0 +1,9 @@
+#node_modules
+.git
+.gitlab-ci.yml
+services-deploy
+terraform*
+Dockerfile
+Dockerenv
+docker-compose.yml
+*.md

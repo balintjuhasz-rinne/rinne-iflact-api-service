@@ -1,0 +1,62 @@
+import moment from 'moment';
+import { MAIN_ALLIANCE_ID, OTHER_ALLIANCE_ID } from '../../../mocks/alliance.data';
+
+export const testCompanies = [
+  {
+    id: 1,
+    financialYearEndDate: moment().add(7, 'months').toISOString(),
+    incorporationDate: moment().add(7, 'months').toISOString(),
+    nextMeetingDate: moment().add(7, 'months').toISOString(),
+    name: 'Apple',
+    email: 'apple1@mail.ru',
+    normalizedEmail: 'apple1@mail.ru',
+    allianceId: MAIN_ALLIANCE_ID,
+  },
+  {
+    id: 2,
+    financialYearEndDate: moment().add(7, 'months').toISOString(),
+    incorporationDate: moment().add(7, 'months').toISOString(),
+    nextMeetingDate: moment().add(7, 'months').toISOString(),
+    name: 'Google',
+    email: 'google@mail.ru',
+    normalizedEmail: 'google@mail.ru',
+    allianceId: MAIN_ALLIANCE_ID,
+  },
+  {
+    id: 3,
+    financialYearEndDate: moment().add(7, 'months').toISOString(),
+    incorporationDate: moment().add(7, 'months').toISOString(),
+    nextMeetingDate: moment().add(7, 'months').toISOString(),
+    name: 'Apple Sync',
+    email: 'apple3@mail.ru',
+    normalizedEmail: 'apple3@mail.ru',
+    allianceId: MAIN_ALLIANCE_ID,
+  },
+  {
+    id: 4,
+    financialYearEndDate: moment().add(7, 'months').toISOString(),
+    incorporationDate: moment().add(7, 'months').toISOString(),
+    nextMeetingDate: moment().add(7, 'months').toISOString(),
+    name: 'Apple Team',
+    email: 'apple4@mail.ru',
+    normalizedEmail: 'apple4@mail.ru',
+    allianceId: MAIN_ALLIANCE_ID,
+  },
+  {
+    id: 5,
+    financialYearEndDate: moment().add(7, 'months').toISOString(),
+    incorporationDate: moment().add(7, 'months').toISOString(),
+    nextMeetingDate: moment().add(7, 'months').toISOString(),
+    name: 'Apple Blog',
+    email: 'apple5@mail.ru',
+    normalizedEmail: 'apple5@mail.ru',
+    allianceId: MAIN_ALLIANCE_ID,
+  },
+  {
+    id: 6,
+    name: 'Apple shazam',
+    email: 'apple6@mail.ru',
+    normalizedEmail: 'apple6@mail.ru',
+    allianceId: OTHER_ALLIANCE_ID,
+  },
+];

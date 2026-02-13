@@ -1,0 +1,102 @@
+[
+  {
+    "name": "AZHAR BIN MOHD SHARIFF",
+    "company": "ADIL RESTU SDN. BHD.",
+    "positions": "DIRECTOR",
+    "email": "ZishanNavarro@yandex.ru",
+    "role": "CO_SIGNATORY",
+    "vetoPower": false,
+    "ID": 650225105159
+  },
+  {
+    "name": "AZHAR BIN MOHD SHARIFF",
+    "company": "ALUNAN PRESTASI SDN. BHD.",
+    "positions": "DIRECTOR,SHARE_HOLDER",
+    "email": "ZishanNavarro@yandex.ru",
+    "role": "CO_SIGNATORY",
+    "votingValue": 1,
+    "vetoPower": false
+  },
+  {
+    "name": "CHAI CHEE SENG",
+    "email": "ZishanNavarro2@yandex.ru",
+    "company": "ANGSANA ABADI SDN. BHD.",
+    "positions": "DIRECTOR,SHARE_HOLDER",
+    "role": "CO_SIGNATORY",
+    "votingValue": 1,
+    "vetoPower": false
+  },
+  {
+    "name": "DATIN SERI LIEW BOON",
+    "email": "ZishanNavarro3@yandex.ru",
+    "company": "AZAM PERSPEKTIF SDN. BHD.",
+    "positions": "DIRECTOR",
+    "role": "CO_SIGNATORY",
+    "vetoPower": false
+  },
+  {
+    "name": "DATIN SRI ROSE ALIZA BINTI TOK MUDA HAJI AHMAD BAHARUDDIN",
+    "email": "ZishanNavarro4@yandex.ru",
+    "company": "ASTANA MODAL (M) SDN. BHD.",
+    "positions": "DIRECTOR",
+    "role": "CO_SIGNATORY",
+    "vetoPower": false
+  },
+  {
+    "name": "DATO' ANUAR BIN AHMED",
+    "company": "AZAM PERSPEKTIF SDN. BHD.",
+    "positions": "DIRECTOR,SHARE_HOLDER",
+    "email": "dsavxcdsvs123@gmail.com",
+    "role": "CO_SIGNATORY",
+    "votingValue": 1,
+    "vetoPower": false
+  },
+  {
+    "name": "DATO' LIM HAN BOON",
+    "company": "ADIL RESTU SDN. BHD.",
+    "positions": "DIRECTOR",
+    "email": "igorbidnik@yahoo.com",
+    "role": "CO_SIGNATORY",
+    "vetoPower": false
+  },
+  {
+    "name": "DATO' LIM MOOI PANG",
+    "company": "ADIL RESTU SDN. BHD.",
+    "positions": "SHARE_HOLDER",
+    "email": "budn1kihor@yandex.by",
+    "role": "CO_SIGNATORY",
+    "votingValue": 1,
+    "vetoPower": false
+  },
+  {
+    "name": "DATO' LIM MOOI PANG",
+    "company": "ALUNAN PRESTASI SDN. BHD.",
+    "email": "budn1kihor@yandex.by",
+    "role": "CO_SECRETARY",
+    "vetoPower": false
+  },
+  {
+    "name": "DATO' LIM MOOI PANG",
+    "company": "ANGSANA ABADI SDN. BHD.",
+    "positions": "DIRECTOR",
+    "email": "budn1kihor@yandex.by",
+    "role": "CO_SIGNATORY",
+    "vetoPower": false
+  },
+  {
+    "name": "DATO' LIM MOOI PANG",
+    "company": "ASTANA MODAL (M) SDN. BHD.",
+    "positions": "DIRECTOR",
+    "email": "budn1kihor@yandex.by",
+    "role": "CO_SIGNATORY",
+    "vetoPower": false
+  },
+  {
+    "name": "DATO' LIM MOOI PANG",
+    "company": "AZAM PERSPEKTIF SDN. BHD.",
+    "positions": "DIRECTOR",
+    "email": "budn1kihor@yandex.by",
+    "role": "CO_SIGNATORY",
+    "vetoPower": false
+  }
+]

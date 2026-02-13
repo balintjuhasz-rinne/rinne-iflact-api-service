@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "paths": {
+      "@flact/entities": [
+        "libs/entities/src"
+      ],
+      "@flact/constants": [
+        "libs/constants/src"
+      ],
+      "@flact/exceptions": [
+        "libs/exceptions/src"
+      ],
+      "@flact/interfaces": [
+        "libs/interfaces/src"
+      ],
+      "@flact/connectors": [
+        "libs/connectors/src"
+      ],
+      "@flact/dtos": [
+        "libs/dtos/src"
+      ],
+      "@flact/helpers": [
+        "libs/helpers/src"
+      ],
+      "@flact/decorators": [
+        "libs/decorators/src"
+      ],
+      "@flact/mappers": [
+        "libs/mappers/src"
+      ],
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
